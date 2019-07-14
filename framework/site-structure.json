@@ -1,0 +1,466 @@
+{
+  "defaults": {
+    "url": "home",
+    "template": "home.html",
+    "baseUrl": "http://hellomonday.com/",
+    "meta": {
+      "title": "Hello Monday",
+      "description": "Hello Monday is a Digital Creative Agency in New York, Copenhagen and Aarhus that creates digital design, websites, apps, and brand identities.",
+      "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+    }
+  },
+  "pages": {
+    "home": {
+      "url": "home",
+      "template": "home.html",
+      "meta": {
+        "title": "Hello Monday",
+        "description": "Hello Monday is a Digital Creative Agency in New York, Copenhagen and Aarhus that creates digital design, websites, apps, and brand identities.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "projects": {
+      "url": "projects",
+      "template": "projects.html",
+      "meta": {
+        "title": "Projects | Hello Monday",
+        "description": "Hello Monday is a Digital Creative Agency in New York, Copenhagen and Aarhus that creates digital design, websites, apps, and brand identities.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "about": {
+      "url": "About",
+      "template": "about.html",
+      "meta": {
+        "title": "About | Hello Monday",
+        "description": "Hello Monday is a Digital Creative Agency in New York, Copenhagen and Aarhus that creates digital design, websites, apps, and brand identities.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "awards": {
+      "url": "awards",
+      "template": "awards.html",
+      "meta": {
+        "title": "Awards | Hello Monday",
+        "description": "Awards don’t increase your chances of survival if you are stranded alone on a deserted island. But regardless of their shortcomings, awards set the creative bar high, keep us focused on innovative ideas, and enable us to do our very best on every single project.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "mondayteers": {
+      "url": "mondayteers",
+      "template": "people.html",
+      "meta": {
+        "title": "Mondayteers | Hello Monday",
+        "description": "Meet the über nice, super talented Mondayteers that are united in their passion for creative use of technology and craftsmanship with character (and the fact that they all looked ridiculously handsome in their teens).",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "culture": {
+      "url": "culture",
+      "template": "culture.html",
+      "meta": {
+        "title": "Culture | Hello Monday",
+        "description": "All work and no play makes Jack a dull boy. All play and no work makes Jack a mere toy. Follow our adventures inside and outside our offices via Facebook, Twitter and Google+ to receive a free virtual hug.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "contact": {
+      "url": "contact",
+      "template": "contact.html",
+      "meta": {
+        "title": "Contact | Hello Monday",
+        "description": "Hello Monday is a Digital Creative Agency in New York, Copenhagen and Aarhus that creates digital design, websites, apps, and brand identities.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "nat-geo": {
+      "url": "nat-geo",
+      "template": "nat-geo.html",
+      "meta": {
+        "title": "National Geographic | Hello Monday",
+        "description": "Follow the journeys of 4 bears navigating the heart of Yellowstone, as seen from the bears’ own point of view. This groundbreaking research that attaches cameras to bears gives us a lens into the never before seen lives of one of the animal kingdom’s most fearsome beasts.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "almostforgot": {
+      "url": "almostforgot",
+      "template": "almostforgot.html",
+      "meta": {
+        "title": "almostforgot | Hello Monday",
+        "description": "Following The DNA Project, the year-long musical experiment that documented the making of his latest album in real-time, J.Views and Hello Monday teamed up once again to create a new kind of musical experience. It’s the world’s first music video that you, the viewer, direct with every beat of your heart.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "garderobe": {
+      "url": "garderobe",
+      "template": "garderobe.html",
+      "meta": {
+        "title": "Garderobe | Hello Monday",
+        "description": "Imagine that you can peek into the closets of style icons, raid the racks of every store in the world and curate your own collection of cool clothing. This is the stuff Garderobe is made of. We just added an identity, some well-thought-out UX and a layer of design.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "zulu": {
+      "url": "zulu",
+      "template": "zulu.html",
+      "meta": {
+        "title": "ZULU on your Brain | Hello Monday",
+        "description": "If the TV station ZULU was a person he would be your quirky cousin with tourettes who can’t help yelling “PENIS” in the middle of your dad’s emotional speech at your brother’s wedding. We created an on-air and digital identity to match this personality. We call it: ZULU on the brain.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "jviewz": {
+      "url": "jviewz",
+      "template": "jviewz.html",
+      "meta": {
+        "title": "j.viewz - The DNA Project | Hello Monday",
+        "description": "j.viewz, a Brooklyn based artist, had a vision to push the boundaries around the way we currently produce, share and listen to music through his concept of The DNA Project.  We took the molecules that encode the genetic makeup of a song into the lab to do just that.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "issuu": {
+      "url": "issuu",
+      "template": "issuu.html",
+      "meta": {
+        "title": "ISSUU | Hello Monday",
+        "description": "Issuu is a leading digital publishing company, with 80+ million users and 16+ million publications. Their goal: become the default destination for online publications. Their target audience: all humans.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "moma-magritte": {
+      "url": "moma-magritte",
+      "template": "moma-magritte.html",
+      "meta": {
+        "title": "Magritte for MoMA | Hello Monday",
+        "description": "For this exhibition site we channeled René Magritte and created an avant-garde inspired museum experience, mixing voice-over, music, and trippy transitions to bring the world of a beloved Surrealist to digital life.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "google-spell-up": {
+      "url": "google-spell-up",
+      "template": "google-spell-up.html",
+      "meta": {
+        "title": "Spell Up | Hello Monday",
+        "description": "What if you could improve your English by playing a game using your voice? Spell Up uses the latest in web technologies to recognize your voice and help you build up your skills, letter by letter, word by word.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "google-ideas": {
+      "url": "google-ideas",
+      "template": "google-ideas.html",
+      "meta": {
+        "title": "Google ideas | Hello Monday",
+        "description": "What if you could improve your English by playing a game using your voice? Spell Up uses the latest in web technologies to recognize your voice and help you build up your skills, letter by letter, word by word.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "google-admob": {
+      "url": "google-admob",
+      "template": "google-admob.html",
+      "meta": {
+        "title": "Admob | Hello Monday",
+        "description": "Admob description",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "beo-play-a9": {
+      "url": "beo-play-a9",
+      "template": "beo-play-a9.html",
+      "meta": {
+        "title": "Beo Play A9 | Hello Monday",
+        "description": "When B&O Play release a speaker it's guaranteed to look like nothing else out there. We wanted the same for its website, giving users a unique, under-the-hood experience of a instantly iconic product.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "nasa-genelab": {
+      "url": "nasa-genelab",
+      "template": "nasa-genelab.html",
+      "meta": {
+        "title": "NASA GeneLab | Hello Monday",
+        "description": "Cutting-edge biological experiments conducted in space. Discoveries made in microgravity. This is GeneLab, and it’s NASA’s largest open-source database for space life science research.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "google-photos": {
+      "url": "google-photos",
+      "template": "google-photos.html",
+      "meta": {
+        "title": "Google Photos | Hello Monday",
+        "description": "Every photo album starts with a memorable experience.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "diesel-black-gold": {
+      "url": "diesel-black-gold",
+      "template": "diesel-black-gold.html",
+      "meta": {
+        "title": "Diesel Black Gold for Diesel | Hello Monday",
+        "description": "Diesel Black Gold is Diesel's high-end clothing line. We found inspiration in the label's exotic materials and patterns and created this digital lookbook to let the label show off its unique idenity and seasonal collections.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "evolution-one": {
+      "url": "evolution-one",
+      "template": "evolution-one.html",
+      "meta": {
+        "title": "Evolution One | Hello Monday",
+        "description": "The world of data science and data intelligence is revolutionizing the way we interact with the world around us. ",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "zulu-bff": {
+      "url": "zulu-bff",
+      "template": "zulu-bff.html",
+      "meta": {
+        "title": "Zulu BFF | Hello Monday",
+        "description": "This program identity and immersive second-screen app experience for Danish Channel TV 2 Zulu asks users a very serious question: how far would you go for a friend?",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "greenpeace-into-the-arctic": {
+      "url": "greenpeace-into-the-arctic",
+      "template": "into-the-arctic.html",
+      "meta": {
+        "title": "Into the Arctic for Greenpeace | Hello Monday",
+        "description": "Into the Arctic is a digital activism platform we built with Greenpeace to raise awareness about the exploitation of the Arctic Circle by big oil companies and commercial fishing industries.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "diesel-spring-summer": {
+      "url": "diesel-spring-summer",
+      "template": "diesel-spring-summer.html",
+      "meta": {
+        "title": "Diesel Spring Summer for Diesel | Hello Monday",
+        "description": "We built this lookbook for Diesel's 2013 Spring/Summer collection with great images from photographer Sharif Hamza. Users were able to shop directly from the pages while taking in all the steamy vibes from our Hot Summer Nights theme.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "alectia": {
+      "url": "alectia",
+      "template": "alectia.html",
+      "meta": {
+        "title": "Alectia | Hello Monday",
+        "description": "Alectia is a engineering company that combines vast industry knowledge and sustainability expertise to give their clients innovative solutions to big problems.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "calico": {
+      "url": "calico",
+      "template": "calico.html",
+      "meta": {
+        "title": "Calico | Hello Monday",
+        "description": "California Life Company is the Google-backed life extension company that wants to fight back against the diseases most associated against with aging.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "pack-a-puzzle": {
+      "url": "pack-a-puzzle",
+      "template": "pack-a-puzzle.html",
+      "meta": {
+        "title": "Pack A Puzzle | Hello Monday",
+        "description": "Hello Monday and our friends at Set Snail embarked on a voyage together to build a user experience that tickles the brain and stimulates your reflexes.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.jpg"
+      }
+    },
+    "mew-sensory-spaces": {
+      "url": "mew-sensory-spaces",
+      "template": "mew-sensory-spaces.html",
+      "meta": {
+        "title": "Sensory Spaces for B&amp;O Play &amp; Mew | Hello Monday",
+        "description": "The Sensory Spaces app unites indie band MEW and B&O PLAY in the quest for better sound experiences. Sharpen your hearing and motor skills to get all the way through an extraordinary interactive journey.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "rvlt": {
+      "url": "rvlt",
+      "template": "rvlt.html",
+      "meta": {
+        "title": "RVLT.com for Revolution (RVLT) | Hello Monday",
+        "description": "We helped fashion line Revolution re-launch their digital shop and lookbook, experimenting with a responsive, animated grid to give users unique combinations of content with every page resize.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "youtube-kids": {
+      "url": "youtube-kids",
+      "template": "youtube-kids.html",
+      "meta": {
+        "title": "YouTube Kids | Hello Monday",
+        "description": "Together with YouTube, Hello Monday created an app directed at children so they can enjoy the enormous amount of fun, educational videos available - while parents don’t have to worry that their kids’ explorations leading to adult content.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "revelator": {
+      "url": "revelator",
+      "template": "revelator.html",
+      "meta": {
+        "title": "Revelator | Hello Monday",
+        "description": "We helped the SaaS revamp its visual identity and product, and created a marketing site to tell the story of one solution that really does it all.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "mingrundlov": {
+      "url": "mingrundlov",
+      "template": "mingrundlov.html",
+      "meta": {
+        "title": "Min Grundlov | Hello Monday",
+        "description": "It’s not everyday you get asked to redesign your country’s Constitution. But Denmark is pretty small, and fortunately for us, The Danish Parliament had heard good things about our design skills.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "wove": {
+      "url": "wove",
+      "template": "wove.html",
+      "meta": {
+        "title": "Wove | Hello Monday",
+        "description": "Wove",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "the-fwa": {
+      "url": "the-fwa",
+      "template": "the-fwa.html",
+      "meta": {
+        "title": "The FWA | Hello Monday",
+        "description": "Since May 2000, The FWA has been celebrating digital innovation. In recent years, the platform was not living up to the ideals it celebrates, so we partnered with the FWA to do a complete revamp and take a legendary digital award platform to the next level.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "hollow": {
+      "url": "hollow",
+      "template": "hollow.html",
+      "meta": {
+        "title": "Hollow | Hello Monday",
+        "description": "Artist Katie Paterson’s work is about natural phenomenon like time, the universe and volcanoes. We became a mix of a rational scientists and poetic artists when we shaped the digital experience to match her newest piece, Hollow.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "gcp": {
+      "url": "gcp",
+      "template": "gcp.html",
+      "meta": {
+        "title": "Google Cloud Platform Machine Learning Animated Video | Hello Monday",
+        "description": "Machine Learning meets abstract expressionism in this educational video for Google Cloud Platform.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+    "residente": {
+      "url": "residente",
+      "template": "residente.html",
+      "meta": {
+        "title": "Residente | Hello Monday",
+        "description": "Race, gender and social status are among the many ways we define ourselves, but by focusing on our differences we forget a fundamental truth: deep down, we’re all human. This idea inspired Musician Rene Perez, aka Residente, to take a DNA test and travel the world exploring his roots.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_residente.png"
+      }
+    },
+    "tnc": {
+      "url": "tnc",
+      "template": "tnc.html",
+      "meta": {
+        "title": "The Nature Conservancy | Hello Monday",
+        "description": "Dive into the projects of The Nature Conservancy of California, a nonprofit organization with a mission to use human ingenuity to support and protect our natural world. Learn about the ground-breaking work the agency is doing with science, technology, and unexpected alliances to create solutions that benefit both nature and the human experience.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_tnc.png"
+      }
+    },
+
+    "driver-branding": {
+      "url": "driver-branding",
+      "template": "driver-branding.html",
+      "meta": {
+        "title": "Driver Branding | Hello Monday",
+        "description": "An ambitious new consumer technology company seeks to radically redefine how cancer patients connect with potentially life-prolonging treatment options and move the needle forward on a cure for cancer. ",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_driver_branding.png"
+      }
+    },
+
+    "driver-teaser": {
+      "url": "driver-teaser",
+      "template": "driver-teaser.html",
+      "meta": {
+        "title": "Driver Teaser Site | Hello Monday",
+        "description": "In the coming months, Driver is set to revolutionize how cancer patients find and access potentially life-extending treatments. Using their online platform, patients will be presented with clinical trials that they already eligible for, as determined by clinical information collected at the onset of joining the platform.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_driver_teaser.png"
+      }
+    },
+
+    "bendy10": {
+      "url": "bendy10",
+      "template": "bendy10.html",
+      "meta": {
+        "title": "Bendy 10 | Hello Monday",
+        "description": "When we look into ourselves for too long, we sometimes get stuck. Each poster in the Bendy10 collection reminds us of the consequences.",
+        "image": "http://hellomonday.com/assets/images/icons/fb-share_bendy.jpg"
+      }
+    },
+
+    "sideways": {
+      "url": "sideways",
+      "template": "sideways.html",
+      "meta": {
+        "title": "Sideways Dictionary | Hello Monday",
+        "description": "With Sideways Dictionary and its companion Chrome extension, we are helping to foster better understanding around topics that are much more frequently showing up in the news — and more understanding can help us to stay safe and know when to take action.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+
+    "essential": {
+      "url": "essential",
+      "template": "essential.html",
+      "meta": {
+        "title": "Essential | Hello Monday",
+        "description": "Essential is proof that you don’t have to be big to do something big. In fact, being big can inhibit you from being innovative or conquering a market.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+
+    "jigsaw": {
+      "url": "jigsaw",
+      "template": "jigsaw.html",
+      "meta": {
+        "title": "Jigsaw | Hello Monday",
+        "description": "In oppressive countries, people fight daily against digital attacks aimed at preventing the exchange of ideas and information. Jigsaw believes the right tools and technology can give them the power to fight back.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+
+    "witness-change": {
+      "url": "witness-change",
+      "template": "witness-change.html",
+      "meta": {
+        "title": "Witness Change | Hello Monday",
+        "description": "In My World is a collaboration with photographer Robin Hammond. The website aims to raise awareness about the impact war, poverty and conflict can have on mental health issues.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+
+    "espn": {
+      "url": "espn",
+      "template": "espn.html",
+      "meta": {
+        "title": "ESPN | Hello Monday",
+        "description": "We The Fans is a multiplatform storytelling project about life and love as a football fan. In collaboration with ESPN, we created a digital experience exploring the lives of Chicago Bears diehards.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+
+    "wbg": {
+      "url": "wbg",
+      "template": "wbg.html",
+      "meta": {
+        "title": "Warner Bros. Good | Hello Monday",
+        "description": "Warner Bros. Entertainment is dedicated to making a positive social impact through its corporate responsibility initiatives. Our programs inspire youth to be storytellers, create access and opportunities for new voices, and drive sustainable green production practices.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    },
+
+    "deshaw": {
+      "url": "deshaw",
+      "template": "deshaw.html",
+      "meta": {
+        "title": "D.E. Shaw | Hello Monday",
+        "description": "Case study for D.E. Shaw. The D.E. Shaw group is a global investment and technology development firm founded in 1988 with offices in North America, Europe, and Asia. The firm has earned an international reputation for successful investing based on innovation, careful risk management, and the quality and depth of its staff.",
+        "image": "http://hellomonday.com/assets/images/icons/fb_thumb_main.png"
+      }
+    }
+
+  }
+}

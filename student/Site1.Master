@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DB.Web.student.Site1" %>
+
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head runat="server">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+<!-- Mainly scripts -->
+<script src="http://www.imutuus.com/admin/js/jquery-2.1.1.js"></script>
+<script src="http://www.imutuus.com/admin/js/bootstrap.min.js"></script>
+<script src="http://www.imutuus.com/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="http://www.imutuus.com/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="http://www.imutuus.com/admin/js/inspinia.js"></script>
+<script src="http://www.imutuus.com/admin/js/plugins/pace/pace.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+  <!-- wrapper begin -->
+<div id="wrapper">
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span>
+
+                    </span>
+                    <a class="dropdown-toggle" href="javascript:;">
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold" runat="server" id="adname"> </strong>
+                            </span>
+                            <span class="text-muted text-xs block" runat="server" id="adrole">
+
+                            </span>
+                        </span>
+                    </a>
+
+                </div>
+                <div class="logo-element">
+                    Mu+
+                </div>
+            </li>
+
+            <!-- <li class="active">
+                <a href="index.aspx">
+                    <i class="fa fa-home"></i>
+                    <span class="nav-label">首页</span>
+                </a>
+            </li> -->
+
+            <li runat="server" id="ad"  runat="server" visible="false">
+                <a href="manage_list.aspx">
+                    <i class="fa fa-users"></i>
+                    <span class="nav-label">管理员中心</span>
+                </a>
+            </li>
+            <li class="active" runat="server" id="stu" visible="false">
+                <a href="javascript:;">
+                    <i class="fa fa-graduation-cap"></i>
+                    <span class="nav-label">学生管理</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                    <li>
+                        <a href="S_add.aspx">新建学生</a>
+                    </li>
+                      <li>
+                        <a href="S_list.aspx">学生列表</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="active" runat="server" id="kc" visible="false">
+                <a href="javascript:;">
+                    <i class="fa fa-book"></i>
+                    <span class="nav-label">课表管理</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                    <li>
+                        <a href="K_add.aspx">创建课表</a>
+                    </li>
+                      <li>
+                        <a href="K_list.aspx">全部课表</a>
+                    </li>
+                       <li>
+                        <a href="K_listbynow.aspx">本周课表</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="active" runat="server" id="cb" visible="false">
+                <a href="javascript:;">
+                    <i class="fa fa-glass"></i>
+                    <span class="nav-label">餐表管理</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+                    <li>
+                        <a href="C_add.aspx">创建每日餐表</a>
+                    </li>
+                    <li>
+                        <a href="C_list.aspx">餐表列表</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="active" runat="server" id="Li1" visible="false">
+                <a href="javascript:;">
+                    <i class="fa fa-glass"></i>
+                    <span class="nav-label">成长追踪</span>
+                    <span class="fa arrow"></span>
+                </a>
+                <ul class="nav nav-second-level collapse">
+
+                    <li>
+                        <a href="Cz_list.aspx">学员列表</a>
+                    </li>
+
+                </ul>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+<!-- page-wrapper begin -->
+<div id="page-wrapper" class="gray-bg" data-desc='内容区外框'>
+    <!-- navbar begin -->
+    <div class="row border-bottom">
+        <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+
+            <div class="navbar-header">
+                <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <span class="m-r-sm text-muted welcome-message">欢迎来到 Mutuus 出入库管理系统.</span>
+                </li>
+                <li>
+                    <a href="login.aspx">
+                        <i class="fa fa-sign-out"></i>退出
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+
+          <div class="footer">
+        <div class="pull-right">
+            栾叮互动－技术支持
+        </div>
+        <div>
+            Mutuus &copy; 2016-2020
+        </div>
+    </div>
+
+
+</div>
+<!-- page-wrapper end -->
+</div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,202 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>签到</title>
+
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+		<link href='js/fullcalendar/fullcalendar.min.css' rel='stylesheet' />
+    <link href="css/wx_chart.css" rel="stylesheet">
+
+</head>
+
+<body>
+<form class="page__form flexbox">
+
+<header class="chart__hender">
+	<nav class="chart-nav clearfix">
+		<div class="logo"></div>
+		<div class="block"></div>
+		<div id="jMenu" class="menu">
+			<span class="line"></span>
+		</div>
+	</nav>
+	<ul id="chartSubNav" class="chart_sub-nav">
+			<li><a href="chart_development.html">七大领域发展频次</a></li>
+			<li><a href="chart_seventeen.html">17个早期学习目标发完成度</a></li>
+			<li><a href="chart_cognition.html">成长追踪</a></li>
+			<li><a href="chart_growth.html">当月数据报告</a></li>
+			<li class="on"><a href="wx_student_sign.html">签到</a></li>
+	</ul>
+</header>
+
+<section class="chart__content cognition-bg flex">
+
+	<div class="block-5rem"></div>
+
+	<ul class="cognition__head">
+		<li class="student-name">
+			<div class="cn">
+				<strong class="name">袁菲</strong>
+				<span>小朋友</span>
+				<span>【休学】</span>
+			</div>
+		</li>
+		<li class="student-mouth-age">
+			<span class="title">账户：</span>
+			<span class="age">1000</span>
+			元
+		</li>
+	</ul>
+
+	<div class="calendar-wrap">
+		<div id='calendar'></div>
+	</div>
+
+	<ul class="cognition__head">
+		<li class="student-mouth-age">
+			<span class="title">上课：</span>
+			<span class="age">20</span>
+			天
+		</li>
+		<li class="student-mouth-age">
+			<span class="title">病假：</span>
+			<span class="age">3</span>
+			天
+		</li>
+		<li class="student-mouth-age">
+			<span class="title">事假：</span>
+			<span class="age">5</span>
+			天
+		</li>
+	</ul>
+
+</section>
+
+<footer class="chart__footer"></footer>
+
+</form>
+</body>
+<script src="js/jquery.1.11.0.min.js"></script>
+<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src='js/fullcalendar/lib/moment.min.js'></script>
+<script src='js/fullcalendar/fullcalendar.min.js'></script>
+<script src='js/fullcalendar/locale/zh-cn.js'></script>
+
+<script src="./js/charts.js"></script>
+
+<script>
+
+	$(document).ready(function() {
+
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next,today',
+				center: 'title',
+				right: 'month,listMonth' //prev,next month,agendaWeek,agendaDay,listMonth
+			},
+			businessHours: true, // display business hours
+			// editable: true, //事件是否可编辑，可编辑是指可以移动, 改变大小等。
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+
+
+				// 九月
+				//单日格式  格式参考单日模式 如果采用这种数据模式，则降每一天都列出
+
+				//多日格式 日期格式 0000-00-00T00:00:00
+				//				如果是1月则为01 中间不能有空格
+				//				T为时间和日期的分割 中间不能有空格，该模式对时间要求很严谨
+
+				{ //单日格式
+					title: '√ 已签到',
+					start: '2017-09-01',
+					color: 'green',
+				},
+
+				{ //多日格式
+					title: '√ 已签到',
+					start: '2017-09-04T00:00:00',
+					end: '2017-09-08T24:00:00',
+					color: 'green',
+				},
+				{ //多日格式
+					title: '√ 已签到',
+					start: '2017-09-11T00:00:00', //日期后面时间可不用动 中间不能有空格
+					end: '2017-09-15T24:00:00',
+					color: 'green',
+				},
+				{
+					title: '√ 已签到',
+					start: '2017-09-20T00:00:00',
+					end: '2017-09-22T24:00:00',
+					color: 'green',
+				},
+
+
+				{
+					title: '周末',
+					start: '2017-09-02T00:00:00',
+					end: '2017-09-03T24:00:00',
+					color: '#aaa'
+				},
+				{
+					title: '周末',
+					start: '2017-09-09T00:00:00',
+					end: '2017-09-10T24:00:00',
+					color: '#aaa'
+				},
+				{
+					title: '周末',
+					start: '2017-09-16T00:00:00',
+					end: '2017-09-17T24:00:00',
+					color: '#aaa'
+				},
+				{
+					title: '周末',
+					start: '2017-09-23T00:00:00',
+					end: '2017-09-24T24:00:00',
+					color: '#aaa'
+				},
+				{
+					title: '周末',
+					start: '2017-09-30T00:00:00',
+					end: '2017-09-30T24:00:00',
+					color: '#aaa'
+				},
+
+				{
+					title: '病假',
+					start: '2017-09-18T00:00:00',
+					end: '2017-09-19T24:00:00',
+					color: 'orange'
+				},
+
+				{
+					title: '事假',
+					start: '2017-09-25T00:00:00',
+					end: '2017-09-29T24:00:00',
+					color: 'red',
+				},
+
+			]
+		});
+
+		$('.fc-day-grid-container').height('auto');
+		$('.fc-time').css({'display':'none',});
+		$('.fc-button').click(function () {
+			$('.fc-day-grid-container,.fc-scroller').height('auto');
+			$('.fc-time').css({'display':'none',});
+		});
+	});
+
+</script>
+</html>
