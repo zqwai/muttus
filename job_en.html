@@ -17,20 +17,41 @@
   <meta name="description" content="">
 
   <link href="./js/swiper.4.0.7/css/swiper.min.css" rel="stylesheet"/>
+  <link href="./css/css.css" rel="stylesheet"/>
   <link href="./css/job_en.css" rel="stylesheet"/>
 
 </head>
 
 <body>
-
+  <nav>
+    <a class="logo" href="index.html"></a>
+    <ul class="menu list-unstyled" id="menu">
+        <li><a href="job_en.html">JOBS</a></li>
+        <li><a href="about.html">AOBUT</a></li>
+        <!-- <li class="toggle openMenu">
+            <a href="javascript:void(0)">
+                <i class="fa fa-bars"></i>
+            </a>
+        </li> -->
+    </ul>
+    <!-- <div class="fixed-toggle openMenu"><a href="javascript:void(0)" id="openMenu"><i class="fa fa-bars"></i></a></div> -->
+</nav>
   <div class="swiper-container s_wrap">
     <div class="swiper-wrapper">
-        <div class="swiper-slide page-1">
+        <div class="swiper-slide page-1" data-hash="p1">
           <div class="p-l">
-            <h1>Mutuus</h1>
-            <div class="txt txt-1">Recruitment for Teachers</div>
-            <div class="txt txt-2">located in Hangzhou, China</div>
-            <a class="btn btn-mail" href="mailto:Ruijun_MA@yeah.net"><span>Ruijun_MA(Emma)</span></span>Ruijun_MA@yeah.net</a>
+            <h1>
+              <!-- Mutuus -->
+              <img class="svg-mutuus" src="./images/bg/muttus.svg" alt="">
+            </h1>
+            <div class="txt-wrap">
+              <div class="txt txt-1">Recruitment for Teachers</div>
+              <div class="txt txt-2">located in Hangzhou, China</div>
+              <a class="btn btn-outline btn-info btn-mail" href="mailto:Ruijun_MA@yeah.net">
+                <span>Ruijun_MA<br>(Emma)</span>
+                <span>Ruijun_MA@yeah.net</span>
+              </a>
+            </div>
           </div>
           <div class="p-r">
           </div>
@@ -38,39 +59,56 @@
         </div>
 
 
-        <div class="swiper-slide page-2">
+        <div class="swiper-slide page-2" data-hash="p2">
           <h1>杭州</h1>
-          <div class="txt txt-1">Hangzhou, capital of Zhejiang Province and Song Dynasty capital, is known as 'Heaven on Earth', with its stunning natural beauty and rich cultural heritage. It was described by Marco Polo as "the finest and most splendid city in the world".</div>
-          <div class="txt txt-2">Hangzhou is the political, economic, cultural, educational, transportation, and financial center of Zhejiang Province. The 2022 Asian Games will be held in Hangzhou.</div>
-          <div class="txt txt-3" data-url='http://en.gotohz.com/whyhangzhou/cultureandheritage/'>http://en.gotohz.com/whyhangzhou/cultureandheritage/</div>
-          <div class="txt txt-3" data-url='https://www.youtube.com/watch?v=SEDxpvcyvyI'>https://www.youtube.com/watch?v=SEDxpvcyvyI</div>
-          <a class="btn btn-mail" href="mailto:Ruijun_MA@yeah.net"><span>Ruijun_MA(Emma)</span></span>Ruijun_MA@yeah.net</a>
+          <div class="txt-wrap">
+            <div class="txt txt-1">Hangzhou, capital of Zhejiang Province and Song Dynasty capital, is known as 'Heaven on Earth', with its stunning natural beauty and rich cultural heritage. It was described by Marco Polo as "the finest and most splendid city in the world".</div>
+            <div class="txt txt-2">Hangzhou is the political, economic, cultural, educational, transportation, and financial center of Zhejiang Province. The 2022 Asian Games will be held in Hangzhou.</div>
+            <div class="txt txt-3" data-url='http://en.gotohz.com/whyhangzhou/cultureandheritage/'>http://en.gotohz.com/whyhangzhou/cultureandheritage/</div>
+            <div class="txt txt-4" data-url='https://www.youtube.com/watch?v=SEDxpvcyvyI'>https://www.youtube.com/watch?v=SEDxpvcyvyI</div>
+            <div class="txt txt-5">
+              <a class="btn btn-outline btn-info btn-mail" href="mailto:Ruijun_MA@yeah.net"><span>Ruijun_MA(Emma)</span></span>Ruijun_MA@yeah.net</a>
+            </div>
+          </div>
+          
         </div>
 
 
-        <div class="swiper-slide page-3">
+        <div class="swiper-slide page-3" data-hash="p3">
           <section class="swiper-container west_lake_wrap">
             <div class="swiper-wrapper">
-              <div class="swiper-slide west_lake-1">
-                  <div class="txt txt-1">Spring Dawn at Su Causeway</div>
-                  <div class="txt txt-1">“To make the West Lake metaphor the XiZi,</div>
-                  <div class="txt txt-1">Light makeup and Heavy makeup is always appropriate”</div>
-                </div>
-                <div class="swiper-slide west_lake-2">
-                  <div class="txt txt-1">Lotus in the Breeze at Crooked Courtyard</div>
-                </div>
-                <div class="swiper-slide west_lake-3">
-                  <div class="txt txt-1">Autumn Moon over the Calm Lake</div>
-                </div>
-                <div class="swiper-slide west_lake-4">
-                  <div class="txt txt-1">Broken Bridge with Thawing Snow</div>
-                </div>
-                <div class="swiper-slide west_lake-5">
-                  <div class="txt txt-1">Sunset Glow at Leifeng Pagoda</div>
-                </div>
-                <div class="swiper-slide west_lake-6">
-                  <div class="txt txt-1">Three pools mirroring the moon</div>
-                </div>
+              <section class="swiper-slide west_lake-1">
+                  <div class="txt-wrap">
+                    <p class="txt txt-1">Spring Dawn at Su Causeway</p>
+                    <p class="txt txt-2">“To make the West Lake metaphor the XiZi,</p>
+                    <p class="txt txt-3">Light makeup and Heavy makeup is always appropriate”</p>
+                  </div>
+              </section>
+              <section class="swiper-slide west_lake-2">
+                  <div class="txt-wrap">
+                    <p class="txt txt-1">Lotus in the Breeze at Crooked Courtyard</p>
+                  </div>
+              </section>
+              <section class="swiper-slide west_lake-3">
+                  <div class="txt-wrap">
+                      <p class="txt txt-1">Autumn Moon over the Calm Lake</p>
+                  </div>
+              </section>
+              <section class="swiper-slide west_lake-4">
+                  <div class="txt-wrap">
+                    <p class="txt txt-1">Broken Bridge with Thawing Snow</p>
+                  </div>
+              </section>
+              <section class="swiper-slide west_lake-5">
+                  <div class="txt-wrap">
+                    <p class="txt txt-1">Sunset Glow at Leifeng Pagoda</p>
+                  </div>
+              </section>
+              <section class="swiper-slide west_lake-6">
+                  <div class="txt-wrap">
+                    <p class="txt txt-1">Three pools mirroring the moon</p>
+                  </div>
+              </section>
             </div>
             <div class="swiper-button-prev west_lake_wrap-prev"></div>
             <div class="swiper-button-next west_lake_wrap-next"></div>
@@ -78,18 +116,22 @@
         </div>
         
           
-        <div class="swiper-slide page-4">
+        <div class="swiper-slide page-4" data-hash="p4">
           <h1>City glance</h1>
           <div class="dflex">
             <div class="p-1"></div>
             <div class="p-r">
+              <div class="txt-wrap">
               <div class="txt txt-1">Hangzhou grows very fast. It is historical, modern, open and inclusive. It is a historical city for more than several thousand years with landmarks. It has dynamic skyline and never-ending traffic. It contains traditional philosophies and advanced high-tech with the times. Not only Chinese but also people from all over the world stay here harmoniously.</div>
             
               <a class="btn btn-mail" href="mailto:Ruijun_MA@yeah.net"><span>Ruijun_MA(Emma)</span></span>Ruijun_MA@yeah.net</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="swiper-slide page-5">
+
+
+        <div class="swiper-slide page-5" data-hash="p5">
             <h1>Transportation</h1>
             <div class="dflex">
               <div class="p-1"></div>
@@ -112,7 +154,7 @@
 
 
 
-        <div class="swiper-slide page-6">
+        <div class="swiper-slide page-6" data-hash="p6">
           <div class="train"></div>
           <div class="txt">
               Hangzhou Metro develops extremely fast.
@@ -122,7 +164,7 @@
 
 
 
-        <div class="swiper-slide page-7">
+        <div class="swiper-slide page-7" data-hash="p7">
             <h1>Accommodation</h1>
           <div class="txt txt-1">
               Various schools provide different accommodations, from dorms in campus to apartment outside. Normally the school will offer housing subsidy if they don’t have freely dorms in school.
@@ -143,7 +185,7 @@
         </div>
 
         
-        <div class="swiper-slide page-7">
+        <div class="swiper-slide page-8" data-hash="p8">
             <h1>Marvelous cuisine</h1>
           <div class="txt txt-1">
               Daily meals: Most schools provide lunch. It takes 5-10 yuan for breakfast and around 20 yuan for dinner. Enjoy food in restaurant: If you go shopping and have fun in weekends, it normally costs you 60-200 yuan for one to three persons.
@@ -166,7 +208,7 @@
         
 
         
-        <div class="swiper-slide page-8">
+        <div class="swiper-slide page-9"  data-hash="p9">
           <h1>Recruitment - ESL teachers</h1>
           <div class="tit tit-1">
             Quantities of vacancies:
@@ -188,7 +230,7 @@
         </div>
 
         
-        <div class="swiper-slide page-9">
+        <div class="swiper-slide page-10" data-hash="p10">
           <h1>Requirements</h1>
           <div class="tit tit-1">
             <table class="table1">
@@ -234,7 +276,7 @@
           </div>
         </div>
 
-        <div class="swiper-slide page-10">
+        <div class="swiper-slide page-11" data-hash="p11">
             <h1>Benefits</h1>
             <ul>
               <li>Help and guidance with obtaining Z visa and necessary domestic licenses.</li>
@@ -248,7 +290,7 @@
             <a class="btn btn-mail" href="mailto:Ruijun_MA@yeah.net"><span>Ruijun_MA(Emma)</span></span>Ruijun_MA@yeah.net</a>
           </div>
 
-          <div class="swiper-slide page-11">
+          <div class="swiper-slide page-12" data-hash="p12">
               <h1>Contact Information</h1>
               <div class="txt txt-1">Ruijun MA (Emma)</div>
               <ul>
@@ -274,18 +316,22 @@
 <!-- <script src="./js/TweenMax.min.js"></script> -->
 <script>
 var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem('swiperIndex') : 0,
-    initSwiper = {
-      direction: 'vertical',
-      initialSlide : swiperIndex,
-      navigation: {
-        prevEl: '.pre-page-btn',
-        nextEl: '.next-page-btn',
-      },
-      // 切换页面成功之前的回调
-      onSlideChangeStart: function (swiper) {
-        sessionStorage.setItem('swiperIndex', swiper.activeIndex);
-      }
-    };
+initSwiper = {
+  direction: 'vertical',
+  initialSlide : swiperIndex,
+  hashNavigation: true,
+  hashNavigation: {
+    replaceState: true,
+  },
+  navigation: {
+    prevEl: '.pre-page-btn',
+    nextEl: '.next-page-btn',
+  },
+  // 切换页面成功之前的回调
+  onSlideChangeStart: function (swiper) {
+    sessionStorage.setItem('swiperIndex', swiper.activeIndex);
+  }
+};
 var swiperFather = new Swiper('.s_wrap', initSwiper);
 var swiperSon = new Swiper('.west_lake_wrap',{
   direction: 'horizontal',
