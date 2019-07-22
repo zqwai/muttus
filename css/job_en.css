@@ -185,14 +185,14 @@ body{
   padding: 0 5%;
 }
 .s_wrap .page-p1 .dflex .p-1{
-  /* width: 60vw; */
-  height: 40vw;
+  width: 55vw;
+  height: 35vw;
   background: url(../img/job_en/page-9.jpg) no-repeat center center;
   background-size: 100% auto;
   flex: 1;
 }
 .s_wrap .page-p1 .dflex .p-r{
-  width: 30vw;
+  width: 35vw;
   height: 40vw;
   padding-left: 2vw;
   font-size: 1.8rem;
@@ -309,6 +309,10 @@ body{
   background: url(../img/job_en/page-7-3.jpg) no-repeat center top;
   background-size: 100% auto;
 }
+.s_wrap .page-12 .txt-1{
+  padding-left: 2em;
+  margin-bottom: 2rem;
+}
 
 
 .table1{
@@ -334,4 +338,69 @@ body{
 }
 .s_wrap .page-12 .dflex a{
   color: #ebf5f7;
+}
+.s_wrap .swiper-slide{
+  overflow: hidden;
+}
+.btn-mail.btn-outline{
+  background: none;
+}
+.btn-mail{
+  display: block;
+  width: 22rem;
+  padding: 0;
+  text-align: center;
+  border:none;
+}
+.page-1 .btn-mail{
+  margin:0 auto;
+}
+.btn-mail::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+.btn-mail span{
+  display: inline-block;
+  transition: all .1s;
+}
+.btn-mail span:nth-child(1){
+  display: block;
+  float: left;
+  width: 6rem;
+  height: 6rem;
+  padding: 1.5rem 0 0;
+  font-size: .76rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .2);
+  position: relative;
+  z-index: 2;
+}
+.btn-mail span:nth-child(2){
+  display: block;
+  float: left;
+  width: 16rem;
+  height: 4rem;
+  line-height: 3.5rem;
+  margin-top: 1rem;
+  margin-left: -.8rem;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-left: none;
+  border-radius: 0 6rem 6rem 0;
+  padding-left: 0;
+  position: relative;
+}
+.btn-mail:hover span{
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
+  color: #333;
+}
+.btn-mail span .icon{
+  fill: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+.btn-mail:hover span .icon{
+  fill: #333;
 }
