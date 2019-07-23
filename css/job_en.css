@@ -8,8 +8,8 @@ html{
 * --------------------------------------- */
 body,
 html,
-.swiper-container,
-.swiper-container .swiper-slide{
+.s_wrap,
+.s_wrap .swiper-slide{
   width: 100%;
   height: 100%;
 }
@@ -216,16 +216,20 @@ body{
 }
 .s_wrap .page-6 .train{
   background: url(../img/job_en/page-5.jpg) no-repeat center top;
-  background-size: 100% auto;
+  background-size: cover;
   width: 100%;
   height: 100%;
+  box-shadow: inset 0 1rem 10rem rgba(0,0,0,0.5);
 }
 .s_wrap .page-6 .txt{
   position: absolute;
+  width: 100%;
   bottom: 4rem;
   z-index: 2;
-  padding: 0 5vw;
+  padding: 1vw 5vw;
   font-size: 1.8rem;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .s_wrap .page-7 .dflex,
@@ -313,6 +317,15 @@ body{
   padding-left: 2em;
   margin-bottom: 2rem;
 }
+.s_wrap .page-12 .dflex ul{
+  list-style: none;
+}
+.s_wrap .page-12 .dflex ul .icon{
+  height: 1.8rem;
+  margin-right: 1rem;
+  vertical-align: middle;
+  fill: #fff;
+}
 
 
 .table1{
@@ -372,7 +385,7 @@ body{
   padding: 1.5rem 0 0;
   font-size: .76rem;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, .2);
+  border: 1px solid rgba(255, 255, 255, .5);
   position: relative;
   z-index: 2;
 }
@@ -384,7 +397,7 @@ body{
   line-height: 3.5rem;
   margin-top: 1rem;
   margin-left: -.8rem;
-  border: 1px solid rgba(255, 255, 255, .2);
+  border: 1px solid rgba(255, 255, 255, .5);
   border-left: none;
   border-radius: 0 6rem 6rem 0;
   padding-left: 0;
@@ -403,4 +416,499 @@ body{
 }
 .btn-mail:hover span .icon{
   fill: #333;
+}
+/*
+  page background
+*/
+.s_wrap .swiper-slide{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.s_wrap .page-1{
+  background-color:rgba(98, 154, 187, 1)
+}
+.s_wrap .page-2{
+  background-color: #4DAEE0;
+  background-image: url(../img/job_en/vectors1.svg);
+}
+.s_wrap .page-4{
+  background-color:#4c7296;
+}
+.s_wrap .page-5{
+  background-color: #bc5393;
+}
+.s_wrap .page-7{
+  background-color: #3498db;
+}
+.s_wrap .page-8{
+  background-color: #f27c7e;
+}
+.s_wrap .page-9{
+  background-color: #4e8dc0;
+}
+.s_wrap .page-10{
+  background-color: #acc158;
+}
+.s_wrap .page-11{
+  background-color: #29a4d3;
+}
+.s_wrap .page-12{
+  background-color: #4cbcd4;
+}
+.s_wrap .page-4,
+.s_wrap .page-5,
+.s_wrap .page-8,
+.s_wrap .page-10,
+.s_wrap .page-12{
+  background-image: url(../img/job_en/product_bg.png);
+}
+.s_wrap .page-7,
+.s_wrap .page-9,
+.s_wrap .page-11{
+  background-image: url(../img/job_en/cloud-bg.png);
+}
+.s_wrap .page-4,
+.s_wrap .page-10{
+  background-position: left center;
+}
+.s_wrap .page-5,
+.s_wrap .page-12{
+  background-position: right center;
+}
+/* .page-10 */
+.page-10 .txt-v{
+  margin: 0;
+}
+.page-10 .txt-v .row-tit{
+  font-weight: 400;
+  text-align: center;
+  line-height: 4rem;
+  border-bottom: 1px solid #f2f2f2;
+}
+.page-10 .txt-v .row-cont{
+  padding: 1rem .5rem;
+}
+.page-10 .txt-v .row-cont-1,
+.page-10 .txt-v .row-cont-2{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.page-10 .txt-v-3{
+  flex: 1;
+  border: 1px solid #f2f2f2;
+}
+.page-10 .txt-v-1,
+.page-10 .txt-v-2,
+.page-10 .txt-v-4{
+  width: 12%;
+  border: 1px solid #f2f2f2;
+}
+
+/*
+  arrow-down
+ */
+.arrow-down {
+  position: fixed;
+  bottom: 23px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 24px;
+  height: 20px;
+  cursor: pointer;
+  animation: bounce 3s infinite;
+  transition: opacity 1.3s ease;
+  -webkit-animation: bounce 3s infinite;
+  -webkit-transition: opacity 1.3s ease;
+  opacity: 1;
+}
+.fp-viewing-3rdPage .arrow-down {
+    opacity: 0;
+}
+
+/*
+  media screen
+*/
+
+@media only screen and (max-width: 769px){
+  .s_wrap .page-1 .p-l{
+    z-index: 2;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transition: all .2s linear .6s;
+    border-radius: 3rem;
+  }
+  .s_wrap .page-1.swiper-slide-active .p-l{
+    background-color: rgba(20,20,20,0.5);
+  }
+  .s_wrap .page-1 .p-r{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+  .s_wrap .page-1 .p-l h1,
+  .s_wrap .page-2 h1,
+  .s_wrap .page-4 h1,
+  .s_wrap .page-p1 h1{
+    font-size: 3rem;
+  }
+  .s_wrap .page-p1{
+    font-size: 1.4rem;
+  }
+  .s_wrap .page-2 h1,
+  .s_wrap .page-4 h1,
+  .s_wrap .page-p1 h1{
+    margin: 20% auto 0;
+    width:90%;
+    position: static !important;
+    transform: none;
+    text-align: right;
+  }
+  .s_wrap .page-2 .txt-wrap,
+  .s_wrap .page-p1 .dflex{
+    margin: 3rem auto 0;
+    position: static !important;
+    transform: none;
+    word-break: break-all;
+    text-align: justify;
+    display: block;
+  }
+  .s_wrap .page-p1 .dflex .p-1{
+    width: 100%;
+    height: 15rem;
+  }
+  .s_wrap .page-5 .dflex .p-1{
+    margin-top: 2rem
+  }
+  .s_wrap .page-p1 .dflex .p-r{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .s_wrap .page-8 .dflex .ndflex{
+    display: block;
+  }
+  .s_wrap .page-8 .dflex .pl ,
+  .s_wrap .page-8 .dflex .pl .pic-1,
+  .s_wrap .page-8 .dflex .pc,
+  .s_wrap .page-8 .dflex .pr{
+    width: 100%;
+    padding: 0;
+    margin-top: .5rem;
+    height: 8rem;
+    background-size: cover;
+  }
+  .s_wrap .page-8 .dflex .pl .pic-1{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .s_wrap .page-8 .dflex .pl .btn-mail{
+    position: absolute;
+    bottom: 3rem;;
+  }
+  .page-10 .txt-v-1, .page-10 .txt-v-2, .page-10 .txt-v-4{
+    width: 100%;
+    border:none;
+  }
+  .page-10 .txt-v .row-tit{
+    background-color: rgba(0,0,0,0.5);
+    border:none;
+  }
+  .page-10 .txt-v .row-cont{
+    background-color: rgba(0,0,0,0.2);
+    border:none;
+  }
+  .page-10 .txt-v-1 .row-cont,
+  .page-10 .txt-v-2 .row-cont,
+  .page-10 .txt-v-4 .row-cont{
+    text-align: center;
+  }
+  .s_wrap .page-p1 .dflex ul{
+    list-style: none;
+    padding-left: 0;
+    line-height: 2.5rem;
+  }
+  .s_wrap .page-12 .txt-1{
+    padding-left: 0;
+  }
+}
+
+
+
+/*
+  animation
+*/
+.s_wrap .opacity-0,
+.west_lake_wrap .txt-wrap{
+  opacity: 0;
+}
+.s_wrap .page-10 .tit,
+.s_wrap .page-11 .tit,
+.s_wrap .page-12 .tit{
+  display: block;
+}
+.s_wrap .page-1.swiper-slide-active .tit,
+.s_wrap .page-1.swiper-slide-active .txt-1,
+.s_wrap .page-1.swiper-slide-active .txt-2,
+.s_wrap .page-1.swiper-slide-active .btn-mail,
+
+.s_wrap .page-2.swiper-slide-active .tit,
+.s_wrap .page-2.swiper-slide-active .txt-1,
+.s_wrap .page-2.swiper-slide-active .txt-2,
+.s_wrap .page-2.swiper-slide-active .txt-3,
+.s_wrap .page-2.swiper-slide-active .txt-4,
+.s_wrap .page-2.swiper-slide-active .txt-5,
+
+.s_wrap .page-4.swiper-slide-active .tit,
+.s_wrap .page-4.swiper-slide-active .btn-mail,
+.s_wrap .page-4.swiper-slide-active .txt-1,
+
+.s_wrap .page-5.swiper-slide-active .tit,
+.s_wrap .page-5.swiper-slide-active .btn-mail,
+.s_wrap .page-5.swiper-slide-active .txt-1,
+.s_wrap .page-5.swiper-slide-active .txt-2,
+.s_wrap .page-5.swiper-slide-active .txt-3,
+
+.s_wrap .page-7.swiper-slide-active .tit,
+.s_wrap .page-7.swiper-slide-active .btn-mail,
+.s_wrap .page-7.swiper-slide-active .txt-1,
+.s_wrap .page-7.swiper-slide-active .txt-2,
+.s_wrap .page-7.swiper-slide-active .txt-3,
+.s_wrap .page-7.swiper-slide-active .txt-4,
+.s_wrap .page-7.swiper-slide-active .pic-1,
+.s_wrap .page-7.swiper-slide-active .pic-2,
+
+.s_wrap .page-8.swiper-slide-active .tit,
+.s_wrap .page-8.swiper-slide-active .btn-mail,
+.s_wrap .page-8.swiper-slide-active .txt-1,
+.s_wrap .page-8.swiper-slide-active .txt-2,
+.s_wrap .page-8.swiper-slide-active .txt-3,
+.s_wrap .page-8.swiper-slide-active .txt-4,
+.s_wrap .page-8.swiper-slide-active .pic-1,
+.s_wrap .page-8.swiper-slide-active .pic-2,
+.s_wrap .page-8.swiper-slide-active .pic-3,
+
+.s_wrap .page-9.swiper-slide-active .tit,
+.s_wrap .page-9.swiper-slide-active .btn-mail,
+.s_wrap .page-9.swiper-slide-active .txt-1,
+.s_wrap .page-9.swiper-slide-active .txt-2,
+.s_wrap .page-9.swiper-slide-active .txt-3,
+.s_wrap .page-9.swiper-slide-active .txt-4,
+.s_wrap .page-9.swiper-slide-active .txt-5,
+.s_wrap .page-9.swiper-slide-active .txt-6,
+.s_wrap .page-9.swiper-slide-active .txt-7,
+.s_wrap .page-9.swiper-slide-active .txt-8,
+
+.s_wrap .page-10.swiper-slide-active .tit,
+.s_wrap .page-10.swiper-slide-active .dflex,
+.s_wrap .page-11.swiper-slide-active .tit,
+.s_wrap .page-11.swiper-slide-active .txt,
+.s_wrap .page-11.swiper-slide-active .btn-mail,
+.s_wrap .page-12.swiper-slide-active .tit,
+.s_wrap .page-12.swiper-slide-active .dflex{
+  position: relative;
+  opacity: 0;
+  animation-timing-function: cubic-bezier(.52,.01,.16,1);
+  animation-name: revealText;
+  animation-duration: 1550ms;
+  animation-fill-mode: forwards;
+  animation-delay: 500ms;
+
+  -webkit-animation-timing-function: cubic-bezier(.52,.01,.16,1);
+  -webkit-animation-name: revealText;
+  -webkit-animation-duration: 1550ms;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 500ms;
+
+}
+.s_wrap .page-1.swiper-slide-active .p-r{
+  animation-name: showInLeft;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-duration: 500ms;
+
+  -webkit-animation-name: showInLeft;
+  -webkit-animation-delay: 200ms;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 500ms;
+}
+.s_wrap .page-4.swiper-slide-active .p-1{
+  position: relative;
+  animation-name: revealTextFromLeft;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-duration: 500ms;
+
+  -webkit-animation-name: revealTextFromLeft;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 500ms;
+}
+.s_wrap .page-5.swiper-slide-active .p-1{
+  position: relative;
+  -webkit-animation-name: revealTextFromRight;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-duration: 500ms;
+
+  animation-name: revealTextFromRight;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-duration: 500ms;
+}
+.s_wrap .page-6.swiper-slide-active .txt,
+.west_lake_wrap .swiper-slide-active .txt-wrap{
+  opacity: 0;
+  -webkit-animation-timing-function: cubic-bezier(.52,.01,.16,1);
+  -webkit-animation-name: revealText;
+  -webkit-animation-duration: 1550ms;
+  -webkit-animation-fill-mode: forwards;
+
+  animation-timing-function: cubic-bezier(.52,.01,.16,1);
+animation-name: revealText;
+animation-duration: 1550ms;
+animation-fill-mode: forwards;
+}
+
+
+
+
+.anim-delay-0{
+  transition-delay: 0;
+}
+.anim-delay-2{
+  transition-delay: 200ms;
+}
+.anim-delay-4{
+  transition-delay: 400ms;
+}
+.anim-delay-8{
+  transition-delay: 800ms;
+}
+.anim-delay-12{
+  transition-delay: 1.2s;
+}
+.anim-delay-16{
+  transition-delay: 1.6s;
+}
+.anim-delay-18{
+  transition-delay: 18s;
+}
+.anim-delay-20{
+  transition-delay: 2s;
+}
+.anim-delay-22{
+  transition-delay: 2.2s;
+}
+.anim-delay-24{
+  transition-delay: 2.4s;
+}
+.anim-delay-26{
+  transition-delay: 2.6s;
+}
+.anim-delay-28{
+  transition-delay: 2.8s;
+}
+.anim-delay-32{
+  transition-delay: 3.2s;
+}
+.anim-delay-36{
+  transition-delay: 3.6s;
+}
+
+
+/*
+  keyframes
+*/
+@keyframes revealTextFromRight {
+  0% {
+      transform: translate3d(100%,0,0);
+      opacity: 0;
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1;
+  }
+}
+
+@keyframes revealTextFromLeft {
+  0% {
+      transform: translate3d(calc(-100% - 551px),0,0);
+      opacity: 0;
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1;
+  }
+}
+
+@keyframes revealText {
+  0% {
+      transform: translate3d(0,125%,0);
+      opacity: 0;
+  }
+
+  to {
+      transform: translate3d(0,0%,0);
+      opacity: 1;
+  }
+}
+
+@keyframes showInLeft {
+  0% {
+      transform: translate3d(125%,0,0);
+      opacity: 0;
+  }
+
+  to {
+      transform: translate3d(0%,0,0);
+      opacity: 1;
+  }
+}
+/*
+  s_about
+*/
+
+.s_about{
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.s_about .txt{
+  height: auto;
+  background-color: #fff;
+  color: #444;
+  padding: 8rem 8% 1rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+.s_about .topbg{
+  position: fixed;
+  z-index: 6;
+  background-color: rgba(98, 154, 187, .9);
+  height: 8rem;
+  top: 0;
+  width: 100%;
+}
+.s_about .txt ul,
+.s_about .txt dl{
+  list-style: none;
+  padding-left: 0;
+}
+.s_about .txt dl dd,
+.s_about .txt p{
+  margin-bottom: 2.5rem;
 }
