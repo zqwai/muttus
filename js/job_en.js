@@ -31,6 +31,7 @@ initSwiper = {
     sessionStorage.setItem('swiperIndex', swiper.activeIndex);
   }
 };
+
 var swiperFather = new Swiper('.s_wrap', initSwiper);
 
 
@@ -77,9 +78,21 @@ window.onresize=function(){
 
 $(function(){
 	global.setupBindings();
-	$('.sAbout').on('click', function(){
-		$('.s_about').removeClass('hide');
+	$('#sAbout,#sAbout2').on('click', function(){
+		console.log('22')
+		$('.s_about').addClass('show');
 		swiperAbout();
+		$('html,body').addClass('fiexd');
+		$('#topMenu').removeClass('open');
+		$('.overlay').remove();
+	})
+	$('#sWrap,#sWrap2').on('click', function(){
+		console.log('22')
+		$('.s_about').removeClass('show');
+		swiperAbout();
+		$('html,body').removeClass('fiexd');
+		$('#topMenu').removeClass('open');
+		$('.overlay').remove();
 	})
 })
 
