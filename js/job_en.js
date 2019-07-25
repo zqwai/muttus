@@ -15,13 +15,13 @@ var swiperIndex = sessionStorage.getItem('swiperIndex') ? sessionStorage.getItem
 initSwiper = {
   direction: 'vertical',
   initialSlide : swiperIndex,
-  hashNavigation: true,
+  // hashNavigation: true,
   // slidesPerView: 'auto',
   // freeMode: true,
   mousewheel: true,
-  hashNavigation: {
-    replaceState: true,
-  },
+  // hashNavigation: {
+  //   replaceState: true,
+  // },
   navigation: {
     prevEl: '.pre-page-btn',
     nextEl: '.next-page-btn',
@@ -73,19 +73,20 @@ var swiper = new Swiper('.west_lake_wrap',{
 });
 window.onresize=function(){
 	swiper.update();
+	swiperFather.update();
 }
-//loading 
+//loading
 var _LoadingHtml = '<div id="loadingDiv" style="position:absolute;left:0;width:100%;height:100%;top:0;z-index:10000;background: rgba(0,0,0,.2);"><div id="loadingDiv" style="position:absolute; cursor:wait;left:50%;top:50%;width: 80px;height: 80px;line-height:80px;margin-left:-40px;margin-top:-40px;z-index:10005;border-radius:.5rem;background: rgba(0,0,0,.8) url(Images/fancybox_loading@2x.gif) no-repeat center center;"></div></div>';  
-document.write(_LoadingHtml); 
-//监听加载状态改变  
-document.onreadystatechange = completeLoading;  
-//加载状态为complete时移除loading效果  
-function completeLoading() {  
-    if (document.readyState == "complete") {  
-        var loadingMask = document.getElementById('loadingDiv');  
-        loadingMask.parentNode.removeChild(loadingMask);  
-    }  
-} 
+document.write(_LoadingHtml);
+//监听加载状态改变
+document.onreadystatechange = completeLoading;
+//加载状态为complete时移除loading效果
+function completeLoading() {
+    if (document.readyState == "complete") {
+        var loadingMask = document.getElementById('loadingDiv');
+        loadingMask.parentNode.removeChild(loadingMask);
+    }
+}
 
 $(function(){
 	global.setupBindings();
